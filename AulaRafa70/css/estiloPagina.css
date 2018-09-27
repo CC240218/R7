@@ -4,13 +4,56 @@ header, section,footer{
 	margin: 0 auto;
 	text-align: center;
 
+
 }
 h1{
 	
 }
+header nav ul{
+	list-style: none;
+	padding: 0;
+	background-color: #999;
+}
+header nav ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+header nav ul li:first-of-type{
+	margin-left: 0;
+}
+header nav ul li a{
+	display: inline-block;
+	padding: 10px;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: arial;
+}
+header nav ul li a:hover{
+	text-decoration: underline;
+	background-color: #fff;
+}
 h2{
 	text-align: left;
-	color: #0f0;
+	color: #000;
+
+}
+footer ul{
+	list-style: none;
+	padding: 0;
+}
+footer ul li {
+width: 100px;
+display: inline-block;
+}
+footer ul li a{
+	text-decoration: none;
+	font-family: arial;
+	color: #888;
+}
+footer ul li a:hover{
+	color: #000;
+	font-weight: bold;
 }
 .social{
 	display: inline-block;
@@ -19,6 +62,8 @@ h2{
 	background-image: url("../img/css-sprite-example.png");
 	background-position-y: -100px; 
 	transition: all 0.1s;
+	
+	border-radius: 50%; 
 }
 .social:hover{
 	background-position-y: 0; 
